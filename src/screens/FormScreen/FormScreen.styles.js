@@ -4,10 +4,5 @@ export default StyleSheet.create({
     title: {
         fontSize: 32,
         textAlign: "center"
-    },
-    buttonsContainer: {
-        flexDirection: "row",
-        justifyContent: "space-evenly",
-        margin: 20
     }
 });
