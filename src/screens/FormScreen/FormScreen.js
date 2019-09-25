@@ -1,11 +1,7 @@
-import React, {Fragment} from 'react';
-
+import React from 'react';
 import {
-    SafeAreaView,
-    View,
-    Text,
-} from 'react-native';
-
+    Container
+} from 'native-base';
 import styles from "./FormScreen.styles";
 
 class FormScreen extends React.Component
@@ -13,13 +9,9 @@ class FormScreen extends React.Component
     render()
     {
         return (
-            <Fragment>
-                <SafeAreaView>
-                    <View>
-                        <Text style={styles.title}>Form Screen</Text>
-                    </View>
-                </SafeAreaView>
-            </Fragment>
+            <Container>
+
+            </Container>
         );
     }
 }
