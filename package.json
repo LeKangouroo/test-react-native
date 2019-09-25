@@ -7,9 +7,11 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "link": "react-native link"
   },
   "dependencies": {
+    "native-base": "2.13.8",
     "react": "16.8.6",
     "react-native": "0.60.5",
     "react-native-cli": "2.0.1",
